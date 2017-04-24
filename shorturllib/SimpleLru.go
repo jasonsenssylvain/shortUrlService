@@ -6,6 +6,8 @@ import (
 	"fmt"
 )
 
+//TODO: 需要优化代码 [Issue: https://github.com/jasoncodingnow/shortUrlService/issues/1]
+
 //EvictCallback
 type EvictCallback func(key interface{}, value interface{})
 
